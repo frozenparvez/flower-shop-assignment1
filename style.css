@@ -9,9 +9,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.head-img{
-    width: 500px;
-    height: 600px;
+
+.head-section{
+    height: 200px;
 }
 .container-main{
 
@@ -22,9 +22,16 @@ body{
     background-color: hwb(34 84% 2%);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
    
     
     
+}
+.head-img{
+    padding-top: 50px;
+    margin-bottom: -30px;
+    width: 60%;
+    height: 100%;
 }
 .main-font{
     font-size: 50px;
