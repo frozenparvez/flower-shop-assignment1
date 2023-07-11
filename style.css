@@ -5,6 +5,9 @@
     border:0;
     margin: 0;
 }
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .head-img{
     width: 500px;
@@ -17,6 +20,9 @@
     align-items: center;
     padding: 25px;
     background-color: hwb(34 84% 2%);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
     
     
 }
@@ -35,3 +41,91 @@
 }
 
 
+
+
+.second-title{
+   padding: 35px;
+    text-align: center;
+    justify-content: center;
+    
+}
+    
+    
+
+.feature-img-container{
+    display: flex;
+    /* align-items: center;*/
+    justify-content: center; 
+    
+    
+}
+.image-bg{
+    overflow: hidden;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+    /* background-color: aquamarine; */
+}
+
+.image-bg img{
+    padding: 20px;
+    width: 80%;
+    /* height: 100%; */
+    object-fit: cover;
+    
+    /* padding: 50px; */
+}
+
+.img-one{   
+    background-color: rgba(247, 198, 206, 0.605);
+   
+}
+.img-one img{
+    margin-top: 30px;
+}
+
+.img-two{
+    background-color:rgba(135, 207, 235, 0.658);
+}
+
+.img-two img{
+    margin-top: 60px;
+   margin-left: 30px;
+}
+
+.img-three{
+    background-color:rgba(202, 191, 191, 0.605);
+    
+}
+
+.deals-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e554730c;
+}
+.deals{
+    text-align: center;
+}
+.deals-img{
+    padding: 50px;
+    margin: 20px;
+}
+
+.deals-img img{
+    width: 70%;
+    height: auto;
+}
+
+.btn-sign{
+    background-color: rgb(247, 55, 128);
+    color:white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.off-text{
+    color:  rgb(247, 55, 128);
+}
